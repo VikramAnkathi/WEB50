@@ -1,5 +1,11 @@
+body {
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #section0 {
     text-align: right;
+    margin-top: 20px;
 }
 
 #section {
@@ -13,44 +19,65 @@
 }
 
 a {
-    color: lightcoral;
+    color: rgb(52, 60, 63);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 15px 0 15px;
-    margin: auto;
+    padding: 15px;
 }
 
 a:hover {
-    color: #5f6368;
+    text-decoration: underline;
 }
 
 #search {
-    display: flex;
     margin: 0 auto;
-    width: 584px;
-    height: 44px;
+    outline: none;
+    width: 484px;
+    height: 34px;
     border-radius: 24px;
     box-shadow: none;
-    border: 1px solid #5f6368;
-    padding: 5px 8px 0 14px;
+    border: 0.5px solid #5f6368;
+    padding: 5px 5px 5px 45px;
     font-size: 18px;
+    background-image: url(https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 17px;
 }
 
-.submit {
+#search:hover {
+    border: 1px solid burlywood;
+}
+
+input[type="submit"] {
+    box-shadow: none;
     border-style: solid;
-    border-radius: 5px;
-    background-color: #f5f5f5;
-    width: 200px;
-    height: 40px;
-    font-size: large;
-    margin:0 0 0 25px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
 }
 
 img {
-    width: 500px;
-    height: 200px;
-    margin-top: 150px;
-    margin-bottom: 30px;
+    width: 272px;
+    height: 92px;
+    margin: auto;
+    padding: 30px 0 30px 0;
     background: none;
 
 }
