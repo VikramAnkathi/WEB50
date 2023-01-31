@@ -1,0 +1,26 @@
+.section {
+    text-align: center;
+    margin-top: auto;
+}
+
+#search {
+    width: 400px;
+    height: 20px;
+    border-radius: 25px;
+    border-color: grey;
+    border-style: solid;
+    padding: 5px;
+}
+
+.submit {
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
