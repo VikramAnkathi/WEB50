@@ -81,3 +81,63 @@ img {
     background: none;
 
 }
+
+#top {
+    width: 60px;
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+}
+
+#middle {
+    margin-left: 20px;
+}
+
+#middle > h3 {
+    color: rgb(255, 60, 0);
+}
+
+hr {
+    color: rgb(143, 133, 133);
+}
+
+.forwidth {
+    width: 200px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.forwidth2 {
+    width: 400px;
+    margin: 5px;
+}
+
+#quest {
+    width: 700px;
+    display: inline-block;
+}
+
+#Abutton {
+    text-align : right;
+    margin-right: 70px;
+}
+
+#Abutton > input {
+    text-align: right;
+    background-color: #4d90fe;
+    color: #fff;
+}
+
+h5 {
+    width: fit-content;
+}
+
+#opthelp {
+    width: 500px;
+    display: inline-block;
+}
+
+p {
+    font-size: small;
+}
