@@ -18,43 +18,58 @@
             <h3>Advanced Search</h3>
                 <hr>
 
-        <h5>Find Pages With...</h5>
-
             <div id="quest">
                 <form id="last" action="https://www.google.com/search">
-                    <div>
-                    <label for="as_q" class="forwidth">all these words:</label>
-                    <input type="text" class="forwidth2" name="as_q" autocomplete="off">
-                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td><h5>Find Pages With...</h5></td>
+                                <td></td>
+                                <td><h6>To do this in the search box</h6></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><label for="as_q" class="forwidth">all these words:</label></td>
+                                <td><input type="text" class="forwidth2" name="as_q" autocomplete="off"></td>
+                                <td><p>Type the important words:   <span style="font-family: fantasy;">tricolor rat terrier</span></p></td>
+                            </tr>
 
-                    <div>
-                    <label for="as_epq" class="forwidth">this exact word or phrase:</label>
-                    <input type="text" class="forwidth2" name="as_epq" autocomplete="off">
-                    </div>
+                            <tr>
+                                <td><label for="as_epq" class="forwidth">this exact word or phrase:</label></td>
+                                <td><input type="text" class="forwidth2" name="as_epq" autocomplete="off"></td>
+                                <td><p>Put exact words in quotes:  <span style="font-family: fantasy;">"rat terrier"</span></p></td>
+                            </tr>
 
-                    <div>
-                    <label for="as_oq" class="forwidth">any of these words:</label>
-                    <input type="text" class="forwidth2" name="as_oq" autocomplete="off">
-                    </div>
+                            <tr>
+                                <td><label for="as_oq" class="forwidth">any of these words:</label></td>
+                                <td><input type="text" class="forwidth2" name="as_oq" autocomplete="off"></td>
+                                <td><p>Type OR between all the words you want:   <span style="font-family: fantasy;">miniature OR standard</span></p></td>
+                            </tr>
 
-                    <div>
-                    <label for="as_eq" class="forwidth">none of these words:</label>
-                    <input type="text" class="forwidth2" name="as_eq" autocomplete="off">
-                    </div>
+                            <tr>
+                                <td><label for="as_eq" class="forwidth">none of these words:</label></td>
+                                <td><input type="text" class="forwidth2" name="as_eq" autocomplete="off"></td>
+                                <td><p>Put a minus symbol just before the words you don't want:  <br><span style="font-family: fantasy;">"rat terrier"</span></p></td>
+                            </tr>
 
-                    <div id="Abutton">
-                        <input type="submit" value="Advanced Search">
-                    </div>
+                            <tr>
+                                <td></td>
+                                <td id="Abutton"><input type="submit" value="Advanced Search"></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </form>
             </div>
 
-            <div id="opthelp">
+            <!--<div id="opthelp">
                 <h6>To do this in the search box</h6>
                 <p>Type the important words:   <span style="font-family: fantasy;">tricolor rat terrier</span></p>
                 <p>Put exact words in quotes:  <span style="font-family: fantasy;">"rat terrier"</span></p>
                 <p>Type OR between all the words you want:   <span style="font-family: fantasy;">miniature OR standard</span></p>
                 <p>Put a minus symbol just before the words you don't want:  <br><span style="font-family: fantasy;">"rat terrier"</span></p>
-            </div>
+            </div>-->
         </div>
     </body>
 </html>
