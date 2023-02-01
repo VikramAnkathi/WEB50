@@ -1,0 +1,147 @@
+body {
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section0 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#section {
+    text-align: center;
+    margin-top: auto;
+}
+
+#section1 {
+    text-align: center;
+    margin-top: auto;
+}
+
+a {
+    color: rgb(52, 60, 63);
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#search {
+    margin: 0 auto;
+    outline: none;
+    width: 484px;
+    height: 34px;
+    border-radius: 24px;
+    box-shadow: none;
+    border: 0.5px solid #5f6368;
+    padding: 5px 5px 5px 45px;
+    font-size: 18px;
+    background-image: url(https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 17px;
+}
+
+#search:hover {
+    border: 1px solid burlywood;
+}
+
+input[type="submit"] {
+    box-shadow: none;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
+}
+
+img {
+    width: 272px;
+    height: 92px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    background: none;
+
+}
+
+#top {
+    width: 60px;
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+}
+
+#middle {
+    margin-left: 20px;
+}
+
+#middle > h3 {
+    color: rgb(255, 60, 0);
+}
+
+hr {
+    color: rgb(143, 133, 133);
+}
+
+.forwidth {
+    width: 200px;
+    display: inline-block;
+    margin: 8px;
+}
+
+.forwidth2 {
+    width: 400px;
+    margin: 8px;
+}
+
+#quest {
+    max-width: 700px;
+    display: inline-block;
+}
+
+#Abutton {
+    text-align : right;
+}
+
+#Abutton > input {
+    text-align: right;
+    background-color: #4d90fe;
+    color: #fff;
+}
+
+h5 {
+    width: fit-content;
+}
+
+#opthelp {
+    width: 500px;
+    display: inline-block;
+}
+
+p {
+    width: 400px;
+    margin-left: 30px;
+}
+
+td {
+    padding: 0px;
+}
